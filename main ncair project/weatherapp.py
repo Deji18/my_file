@@ -52,7 +52,7 @@ class WeatherApp:
             self.update_weather_display(weather_data)  # Update the display with weather data
 
     def get_weather_data(self, area):
-        api_key = "c461aadfa1aea669f67162f2469ba382"
+        api_key = "my_api-key"
         url = f"http://api.openweathermap.org/data/2.5/weather?q={area}&appid={api_key}&units=metric"
 
         try:
